@@ -29,7 +29,7 @@ A full-stack URL shortener application built with React.js, Node.js, and Supabas
 *Manage your links and analyze performance in the dashboard.*
 
 ### Analytics View
-![Analytics View](./screenshots/analytics.png)  
+![Analytics View](./screenshots/analysis.png)  
 *View detailed analytics, including location, device, and click data.*
 
 
