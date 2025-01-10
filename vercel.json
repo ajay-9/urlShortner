@@ -1,6 +1,15 @@
 {
     "rewrites": [
-      { "source": "/(.*)", "destination": "/" }
+      {
+        "source": "/:shortId",
+        "destination": "/api/redirect/:shortId"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/[^.]+",
+        "dest": "/",
+        "status": 200
+      }
     ]
   }
-  
